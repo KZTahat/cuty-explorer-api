@@ -5,6 +5,7 @@
 
 ## Overview
 <!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for this class. (i.e. What's your problem domain?) -->
+adding third party server to my appilcation which gives you the information of iintered city (weather information and movies about that city)
 
 ## Getting Started
 <!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
@@ -39,3 +40,13 @@ Start time: `3:15 pm`
 Finish time: `7:00 pm`
 
 Actual time needed to complete: `almost 3.5 hours`
+
+**Name of feature: `Adding third party server`**
+
+Estimate of time needed to complete: `2 hours`
+
+Start time: `2:30 pm`
+
+Finish time: `6:00 pm`
+
+Actual time needed to complete: `3.5 hours`
