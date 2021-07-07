@@ -50,3 +50,13 @@ Start time: `2:30 pm`
 Finish time: `6:00 pm`
 
 Actual time needed to complete: `3.5 hours`
+
+**Name of feature: `Modulizing JS files`**
+
+Estimate of time needed to complete: `20 minutes`
+
+Start time: `12:15 pm`
+
+Finish time: `1:00 pm`
+
+Actual time needed to complete: `45 minutes`
