@@ -60,3 +60,13 @@ Start time: `12:15 pm`
 Finish time: `1:00 pm`
 
 Actual time needed to complete: `45 minutes`
+
+**Name of feature: `Cashing`**
+
+Estimate of time needed to complete: `20 minutes`
+
+Start time: `12:10 pm`
+
+Finish time: `12:25 pm`
+
+Actual time needed to complete: `15 minutes`

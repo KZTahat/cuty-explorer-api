@@ -13,8 +13,6 @@ const server = expree(); // server has all properities and methods of express
 const PORT = process.env.PORT; // getting PORT value from .env file
 server.use(cors()); //to make the server open to any clinte
 
-// http://localhost:3001?city_name=this.state.searchQuery
-// server.get("/getforcastinfo", forcastHandler);
 
 // http://localhost:3001?city_name=this.state.searchQuery
 server.get("/weather", weatherModule.weatherBitHandler);
@@ -22,31 +20,7 @@ server.get("/weather", weatherModule.weatherBitHandler);
 // http://localhost:3001?api_key=<>$city_name=this.state.searchQuery
 server.get("/movies", moviesModule.moviesHandler);
 
-//Function Handlers
-// function forcastHandler(request, response) {
-//   let searchQuery = request.query.city_name.toLowerCase();
-
-//   let info = [];
-//   let flag = false;
-//   weatherData.map((element) => {
-//     if (element.city_name.toLowerCase() == searchQuery) {
-//       flag = true;
-//       info = element.data.map((element2) => {
-//         return [element2.weather.description, element2.valid_date];
-//       });
-//     }
-//   });
-//   if (flag == false) {
-//     info.push("This City Site Weather is not Available");
-//   }
-//   try {
-//     response.status(200).send(`${info}`);
-//   } catch (error) {
-//     console.log(error);
-//   }
-// }
-
-
+// start listening on PORT
 server.listen(PORT, () => {
   console.log("Listening on PORT 3001");
 });
